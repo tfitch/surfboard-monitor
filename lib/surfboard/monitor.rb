@@ -2,6 +2,9 @@ require "surfboard/monitor/version"
 
 module Surfboard
   module Monitor
-    # Your code goes here...
+    def self.process(str)
+      # Your code goes here...
+      PUTS str
+    end
   end
 end

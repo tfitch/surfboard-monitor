@@ -6,12 +6,12 @@ require 'surfboard/monitor/version'
 Gem::Specification.new do |spec|
   spec.name          = "surfboard-monitor"
   spec.version       = Surfboard::Monitor::VERSION
-  spec.authors       = ["TODO: Write your name"]
-  spec.email         = ["TODO: Write your email address"]
+  spec.authors       = ["Tyler Fitch"]
+  spec.email         = ["github@tfitch.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{A gem that will parse out Motorola Surfboard 6141 connection stats.}
+  spec.description   = %q{A gem that will parse out Motorola Surfboard 6141 connection stats.}
+  spec.homepage      = "https://github.com/tfitch/surfboard-monitor"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
